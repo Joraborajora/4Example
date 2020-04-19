@@ -25,10 +25,12 @@ body{
 
 .header {
     height: 100vh;
-    /* background-image: url(../img/headerbg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+   background: rgba(0,0,0,0.3);
+   position: absolute;
+   z-index: 5;
+   left:0;
+   right:0;
+    
 }
 
 .header-top {
@@ -99,3 +101,46 @@ body{
     background: #770302;
 }
 
+
+.slider__item{
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+}
+
+.slider .slick-dots button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    outline: none;
+    background-color: #000;
+    cursor: pointer; 
+}
+
+.slider .slick-dots .slick-active button{
+    background-color: #fff;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    list-style-type: none;
+    
+}
+
+.slider ul {
+    padding:0;
+}
+
+.slider .slick-dots {
+    margin: -55px auto;
+    z-index:6;
+    position: relative;
+    max-width:1200px;
+}
