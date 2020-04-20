@@ -7,3 +7,40 @@ $(function(){
     
     });
   });
+
+
+  $('.header-btn').on('click', function(){
+     $('.menu').addClass('active');   
+  });
+
+  $('.close-btn').on('click', function(){
+    $('.menu').removeClass('active');
+  });
+
+//   var output = $('.number'),
+//     start = 0,
+//     end = 2.1,
+//     timer = setInterval(function () {
+//         output.text(start++ + '%');
+//         if (start > end) {
+//             clearInterval(timer);
+//         }
+//     }, 50);
+
+
+
+
+
+// $(window).scroll(function () { // Когда страница прокручивается
+//     var scrTop = $(window).scrollTop();
+//       if(scrTop>$('.numbers').offset().top - $(window).height()  ) {
+//           numAnimate();
+//       }
+//   });
+//   function numAnimate () {
+//       var number = 0;
+//       setInterval(function () {
+//           number= number + 0.3;
+//           if (number<=2.1) { $('.numbers').text(number); };
+//       }, 100);
+//   };
