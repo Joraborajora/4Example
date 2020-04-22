@@ -37,8 +37,12 @@ $(function(){
 
   });
 
-
   new WOW().init();
+
+
+ 
+
+  
 
 //   var output = $('.number'),
 //     start = 0,
