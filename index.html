@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
     
     <header class="header">
         <div class="container">
             <div class="header-top">
-                <div class="logo">
+                <div class="logo wow fadeInDown">
                     <a href="#index.html">
                         <img src="img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="header-btn">
+                <div class="header-btn wow fadeInDown">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -29,14 +30,14 @@
             </div>
 
             <div class="header-content">
-                <h1 class="header-content__title">
+                <h1 class="header-content__title wow fadeInLeft" data-wow-delay="1s">
                     Roadster
                 </h1>
-                <div class="header-content__text">
+                <div class="header-content__text wow fadeInLeft" data-wow-delay="1.4s">
                     Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
                 </div>
 
-                <a class="button">
+                <a class="button  wow fadeInLeft" data-wow-delay="1.6s">
                     Хочу тест драйв!
                 </a>
             </div>
@@ -53,11 +54,11 @@
             </div>
             <div class="menu__list">
                 <ul>
-                    <li ><a href="#">Узнать цену</a></li>
-                    <li ><a href="#">Характеристики</a></li>
-                    <li ><a href="#">Тест драйв</a></li>
-                    <li ><a href="#">Новости</a></li>
-                    <li ><a href="#">Контакты</a></li >
+                    <li ><a href="#1">Узнать цену</a></li>
+                    <li ><a href="#2">Характеристики</a></li>
+                    <li ><a href="#3">Тест драйв</a></li>
+                    <li ><a href="#4">Новости</a></li>
+                    <li ><a href="#5">Контакты</a></li >
                 </ul>
             </div>
         </div>
@@ -74,10 +75,10 @@
     </section>
 
 
-    <section class="statistic">
+    <section class="statistic " id="1">
         <div class="container">
             <div class="statistic-items" >
-                <div class="statistic-item">
+                <div class="statistic-item wow zoomIn" data-wow-offset="500">
                     <div class="statistic-item__title">
                         Двигатель
                     </div>
@@ -89,7 +90,7 @@
                         разгон до 100 км  
                     </div>
                 </div>
-                <div class="statistic-item">
+                <div class="statistic-item wow zoomIn" data-wow-offset="500" data-wow-delay=".1s">
                     <div class="statistic-item__title">
                         Батарея
                     </div>
@@ -101,7 +102,7 @@
                         запас хода 
                     </div>
                 </div>
-                <div class="statistic-item">
+                <div class="statistic-item wow zoomIn" data-wow-offset="500" data-wow-delay=".2s">
                     <div class="statistic-item__title">
                         Скорость
                     </div>
@@ -119,7 +120,7 @@
     </section>
 
 
-    <section class="video">
+    <section class="video wow fadeInUp" data-wow-offset="500">
         <div class="container">
             <iframe width="100%" height="400" 
             src="https://www.youtube.com/embed/tw4jkyfY4HE?controls=0" 
@@ -131,14 +132,14 @@
 
     </section>
 
-    <section class="advantages">
+    <section class="advantages" id="2">
         <div class="container">
             <div class="advantages-items">
                 <div class="advantages-inner">
 
 
                     <div class="advantages-inner__row">
-                        <div class="advantages-descr">
+                        <div class="advantages-descr wow fadeIn" data-wow-offset="300">
                             <div class="advantages-item__title">
                                 Скорость
                             </div>
@@ -148,17 +149,17 @@
                                 когда либо созданных 
                             </div>
                         </div>
-                            <div class="advantages-images">
+                            <div class="advantages-images wow fadeInRight" data-wow-offset="500">
                                 <img src="img/advantages-img1.jpg" alt="car1">
                             </div>
                     </div> 
 
 
                     <div class="advantages-inner__row advantages-inner__row--mobile">
-                        <div class="advantages-images">
+                        <div class="advantages-images wow fadeInLeft" data-wow-offset="300">
                             <img src="img/advantages-img2.jpg" alt="car1">
                         </div>
-                        <div class="advantages-descr">
+                        <div class="advantages-descr wow fadeIn" data-wow-offset="300">
                             
                             <div class="advantages-item__text">
                                 <ul>
@@ -188,13 +189,13 @@
 
 
 
-    <section class="design">
+    <section class="design" id="3">
         <div class="container">
-            <div class="design-images">
+            <div class="design-images wow fadeIn" data-wow-offset="500">
                 <img src="img/design.jpg" alt="">
             </div>
              <div class="design-row">
-                 <div class="design-row__item">
+                 <div class="design-row__item wow fadeIn" data-wow-delay=".1s" data-wow-offset="300" >
                      <div class="design-row__item-num">
                          01
                      </div>
@@ -204,7 +205,7 @@
 Имеет съёмную стеклянную крышу и кузов с двумя передними сиденьями плюс два небольших сиденья сзади.
                      </div>
                  </div>
-                 <div class="design-row__item">
+                 <div class="design-row__item wow fadeIn " data-wow-delay=".2s" data-wow-offset="300">
                     <div class="design-row__item-num">
                         02
                     </div>
@@ -217,7 +218,7 @@
         </div>
     </section>
 
-    <section class="footer"> 
+    <section class="footer" id="4"> 
         <div class="container">
             <div class="footer-btn">
                 <a class="button">
@@ -241,7 +242,9 @@
  
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript"  src="js/wow.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

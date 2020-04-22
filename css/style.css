@@ -15,12 +15,17 @@ body{
     line-height: 28px;
     font-weight: 400;
     margin: 0;
+
 }
+
 
 .container {
     padding: 0 15px;
     max-width: 1230px;
     margin: 0 auto;
+
+
+
 }
 
 .header {
